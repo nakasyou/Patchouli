@@ -1,0 +1,6 @@
+# vscode history
+/.history/
+# local test
+/local-test/
+#py cache
+__pycache__/
