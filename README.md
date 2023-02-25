@@ -6,6 +6,7 @@ LINEで書き出したトーク履歴をパースします。
 ## How to use it?
 ```python
 import patchouli
+
 with open("talk.txt") as f:
     result=patchouli.Parse(
         f.read(), #トーク履歴のテキストデータ
