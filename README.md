@@ -3,6 +3,10 @@ LINEトーク履歴解析ライブラリ・Patchouli(パチュリー)
 ## About
 LINEで書き出したトーク履歴をパースします。  
 トーク履歴は、OSによって保存方式が違います。Patchouliでは、AndroidとWindowsをサポートしています。
+## Install
+```sh
+ $ pip install git+https://github.com/nakasyou/Patchouli.git
+```
 ## How to use it?
 ```python
 import patchouli
