@@ -4,3 +4,7 @@
 /local-test/
 #py cache
 __pycache__/
+
+/Patchouli.egg-info/
+/build/
+/dist/
