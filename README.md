@@ -36,9 +36,10 @@ first.seq  # 本文
 #### patchouli.modes.Mode
 - モード作成用クラス
 - ```patchouli.modes.Mode(**options)```
-#### patchouli.modes.windows
+#### patchouli.modes.ja
+##### patchouli.modes.ja.windows
 - windows用モード
-#### patchouli.modes.android
+##### patchouli.modes.ja.android
 - android用モード
 ### patchouli.Parse
 - パースのクラス
