@@ -1,5 +1,5 @@
 import sys
-sys.path.append("patchouli")
+sys.path.append("pypatchouli")
 from modes import ja
 import re
 from seq import Seq

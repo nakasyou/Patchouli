@@ -1,4 +1,5 @@
 # Patchouli
+[![PyPI version](https://badge.fury.io/py/pypatchouli.svg)](https://badge.fury.io/py/pypatchouli)  
 LINEトーク履歴解析ライブラリ・Patchouli(パチュリー)
 ## About
 LINEで書き出したトーク履歴をパースします。  
