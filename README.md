@@ -9,7 +9,7 @@ $ pip install git+https://github.com/nakasyou/Patchouli.git
 ```
 ## How to use it?
 ```python
-import patchouli
+import pypatchouli as patchouli
 
 with open("talk.txt") as f:
     result=patchouli.Parse(
@@ -24,7 +24,7 @@ resultは、```Parse```クラスのインスタンスとなります。
 first=result[0]
 ```
 と記述できます。
-firstの内容は、```patchouli.Seq```クラスのインスタンスになっています。  
+firstの内容は、```pypatchouli.Seq```クラスのインスタンスになっています。  
 このインスタンスから、情報を取り出すことができます。  
 ```python
 first.user # ユーザー名
@@ -32,15 +32,15 @@ first.time # 日時(datetime.datetime)
 first.seq  # 本文
 ```
 ## Detail
-### patchouli.modes
-#### patchouli.modes.Mode
+### pypatchouli.modes
+#### pypatchouli.modes.Mode
 - モード作成用クラス
-- ```patchouli.modes.Mode(**options)```
-#### patchouli.modes.ja
-##### patchouli.modes.ja.windows
+- ```pypatchouli.modes.Mode(**options)```
+#### pypatchouli.modes.ja
+##### pypatchouli.modes.ja.windows
 - windows用モード
-##### patchouli.modes.ja.android
+##### pypatchouli.modes.ja.android
 - android用モード
-### patchouli.Parse
+### pypatchouli.Parse
 - パースのクラス
-- ```patchouli.Parse(text,mode=patchouli.modes.windows)```
+- ```pypatchouli.Parse(text,mode=patchouli.modes.windows)```
