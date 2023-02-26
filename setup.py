@@ -12,5 +12,6 @@ setup(
     license="MIT",
     keywords='line patchouliv history parser',
     author="nakasyou",
-    url="https://github.com/nakasyou/Patchouli"
+    url="https://github.com/nakasyou/Patchouli",
+    long_description_content_type="text/markdown"
 )
