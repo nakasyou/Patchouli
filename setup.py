@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 
 with open("README.md",encoding="utf-8") as f:
     long_description=f.read()
@@ -13,5 +14,7 @@ setup(
     keywords='line patchouliv history parser',
     author="nakasyou",
     url="https://github.com/nakasyou/Patchouli",
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
+    packages=find_packages("pypatchouli"),
+    package_dir={"": "pypatchouli"},
 )

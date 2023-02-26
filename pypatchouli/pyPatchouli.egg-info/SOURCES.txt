@@ -1,0 +1,6 @@
+README.md
+setup.py
+pypatchouli/pyPatchouli.egg-info/PKG-INFO
+pypatchouli/pyPatchouli.egg-info/SOURCES.txt
+pypatchouli/pyPatchouli.egg-info/dependency_links.txt
+pypatchouli/pyPatchouli.egg-info/top_level.txt
