@@ -15,6 +15,5 @@ setup(
     author="nakasyou",
     url="https://github.com/nakasyou/Patchouli",
     long_description_content_type="text/markdown",
-    packages=find_packages("pypatchouli"),
-    package_dir={"": "pypatchouli"},
+    packages=find_packages(),
 )

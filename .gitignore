@@ -5,6 +5,6 @@
 #py cache
 __pycache__/
 
-/Patchouli.egg-info/
+/pyPatchouli.egg-info/
 /build/
 /dist/
