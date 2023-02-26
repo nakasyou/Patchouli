@@ -1,3 +1,5 @@
+import sys
+sys.path.append("pypatchouli")
 from datetime import datetime
 from event import Event
 

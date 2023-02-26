@@ -6,7 +6,7 @@ with open("README.md",encoding="utf-8") as f:
 
 setup(
     name="pyPatchouli",
-    version="0.1.1",
+    version="0.1.2",
     install_requires=[],
     description="Patchouli is LINE app's history text parser.",
     long_description=long_description,
